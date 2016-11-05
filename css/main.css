@@ -94,7 +94,9 @@ footer {
   background-color: #666;
   color: #f2f2f2;
   padding: .4em .2em;
-  margin-left: 80px;
+  margin-left: -80px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 blockquote {
@@ -103,7 +105,9 @@ blockquote {
   font-size: 1.5rem;
   color: #666;
   padding: 6px;
-  margin-left: -160px;
+  margin: 6px 6px 6px -160px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 figure {
@@ -111,6 +115,8 @@ figure {
   width: 300px;
   padding: 6px 0;
   margin-right: -160px;
+  border-top: 3px #333 solid;
+  border-bottom: 3px #333 solid;
 }
 
 figcaption {
