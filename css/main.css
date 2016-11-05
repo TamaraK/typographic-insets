@@ -88,7 +88,7 @@ footer {
 
 /* Write your CSS here */
 
-.dropcap::first-letter {
+main > p:first-child::first-letter {
   font-size: 5rem;
   font-style: normal;
   background-color: #666;
@@ -97,6 +97,8 @@ footer {
   margin-left: -80px;
   border-top: 3px #333 solid;
   border-bottom: 3px #333 solid;
+  float: left;
+  width: 300px;
 }
 
 blockquote {
