@@ -87,6 +87,6 @@ footer {
 */
 
 /* Write your CSS here */
-first-letter {
+.dropcap::first-letter {
   font-size: 5rem;
 }
